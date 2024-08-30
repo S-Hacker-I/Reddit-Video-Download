@@ -1,25 +1,17 @@
 {
-<<<<<<< HEAD
+  "name": "reddit-server",
+  "version": "1.0.0",
+  "description": "Downloading Reddit videos",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "sanitize-filename": "^1.6.3",
     "youtube-dl-exec": "^3.0.7"
   },
-  "name": "reddit-server",
-  "version": "1.0.0",
-  "description": "downloading reddit videos",
-  "main": "server.js",
-  "devDependencies": {},
-=======
-  "name": "test",
-  "version": "1.0.0",
-  "main": "server.js",
->>>>>>> f71f25d455dd7debf842c37ad6a07241d71c7e40
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-<<<<<<< HEAD
   "author": "",
   "license": "ISC",
   "repository": {
@@ -30,15 +22,4 @@
     "url": "https://github.com/S-Hacker-I/reddit-video-downloader/issues"
   },
   "homepage": "https://github.com/S-Hacker-I/reddit-video-downloader#readme"
-=======
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.7.5",
-    "execa": "^9.3.1",
-    "express": "^4.19.2"
-  },
-  "description": ""
->>>>>>> f71f25d455dd7debf842c37ad6a07241d71c7e40
 }
